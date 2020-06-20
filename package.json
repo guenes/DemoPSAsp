@@ -1,5 +1,5 @@
 {
-  "name": "grid-press-sass",
+  "name": "y",
   "version": "1.0.1",
   "description": "Grid Sass Press",
   "main": "gulpfile.js",
@@ -34,5 +34,13 @@
     "press"
   ],
   "author": "me self",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guenes/wp-gridpress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guenes/wp-gridpress/issues"
+  },
+  "homepage": "https://github.com/guenes/wp-gridpress#readme"
 }
