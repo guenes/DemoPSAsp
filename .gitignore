@@ -1,2 +1,137 @@
-node_modules
 package-lock.json
+# Git ignore files.
+
+# NPM #
+##########
+# Ignore all directories called node_modules in current folder and any subfolders.
+node_modules/
+/node_modules/
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+*.map
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.env
+*.sqlite
+
+# OS generated files #
+######################
+**.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Vim generated files #
+######################
+*.un~
+
+# SASS #
+##########
+**/.sass-cache
+**/.sass-cache/*
+**/.map
+
+# Composer #
+##########
+!assets/js/vendor/
+wpcs/
+/vendor/
+
+# Bower #
+##########
+assets/bower_components/*
+
+# Codekit #
+##########
+/codekit-config.json
+*.codekit
+**.codekit-cache/*
+
+# Compiled Files and Build Dirs #
+##########
+/README.html
+
+# PhpStrom Project Files #
+.idea/
+library/vendors/composer
+assets/img/.DS_Store
+
+
+
+
+# ignore everything in the root except the "wp-content" directory.
+!wp-content/
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+# ignore these plugins
+wp-content/plugins/hello.php
+# ignore specific themes
+wp-content/themes/twenty*/
+
+# # Alternative, Man ignoriert alles ausser man gibt es expliziert ein. man könnte mit wp kombinieren.
+# # Ignore everything:
+# /*
+# !/.github/
+# !/assets/
+# /assets/*
+# !/assets/css/
+# /assets/css/*
+# !/assets/css/src/
+# !/assets/js/
+# /assets/js/*
+# !/assets/js/src/
+# !/assets/images/
+# /assets/images/*
+# !/assets/images/src/
+# !/languages/
+# !gulp/
+# !style.css
+# !/*.php
+# !/inc/
+# !/template-parts/
+# !/config/
+# /config/config.local.json
+# !/tests/
+# !/optional/
+
+# !.babelrc
+# !composer.json
+# !composer.lock
+# !CHANGELOG.md
+# !CONTRIBUTING.md
+# !.editorconfig
+# !.eslintignore
+# !.eslintrc.json
+# !.gitignore
+# !gulpfile.babel.js
+# !LICENSE
+# !package-lock.json
+# !package.json
+# !phpcs.xml.dist
+# !phpunit.integration.xml.dist
+# !phpunit.xml.dist
+# !README.md
+# !readme.txt
+# !screenshot.png
+# !.travis.yml
+# !.browserslistrc
