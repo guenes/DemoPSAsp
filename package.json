@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {
     "autoprefixer": "^10.1.0",
+    "browser-sync": "^2.26.13",
     "cssnano": "^4.1.10",
     "error-ex": "git+https://github.com/Qix-/node-error-ex.git",
     "gulp": "^4.0.2",
@@ -15,11 +16,11 @@
     "gulp-series": "^1.0.2",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-src": "^1.0.0",
-    "gulp-task": "^0.1.15",
+    "gulp-task": "^2.1.0",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
-    "gulp-watch": "^4.2.4",
-    "node-sass": "^4.14.1",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^5.0.0",
     "sass": "^1.32.0",
     "terser": "^5.5.1"
   },
